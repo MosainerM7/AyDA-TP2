@@ -1,0 +1,37 @@
+Nombre: Mosainer Martín
+Trabajo Práctico 2
+AyDA.
+
+
+Considera el siguiente algoritmo y responde las preguntas.
+
+ALGORITHM Mystery(n)
+//Input: Un entero n no negativo
+S ← 0
+for i ←1 to n do
+  S ← S + i∗i
+return S
+
+1. ¿Qué calcula este algoritmo?
+2. ¿Cuál es su funcionamiento básico?
+3. ¿Cuántas veces se ejecuta la operación básica?
+
+Respuestas:
+
+1. ¿Qué calcula este algoritmo?
+El algoritmo suma los cuadrados de los primeros 𝑛
+números naturales. Esto significa que el valor final de 𝑆 será:
+S = 1^2 + 2^2 + 3^+2 + 4^2 + ......+ n^2    
+
+Por lo tanto, el algoritmo calcula la suma de los cuadrados de los números de 
+1 a 𝑛 lo que corresponde a la fórmula: S =  n i=1∑ i^2 = n( (n+1)(2n+1))/6
+
+2. ¿Cuál es su operación básica?
+La operación básica es la multiplicación 𝑖∗𝑖 en la línea S ← S + i * i.
+
+3. ¿Cuántas veces se ejecuta la operación básica?
+La operación básica se ejecuta una vez en cada iteración del ciclo for, que va desde 
+i=1 hasta i=n. Por lo tanto, el número de veces que se ejecuta la operación básica es igual a n.
+
+
+Ejercicio 2: OPCIONAL
